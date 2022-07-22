@@ -5,6 +5,7 @@ metadata:
   labels:
     app: frontend-service
   name: frontend-service
+  namespace: default
 spec:
   ports:
   - name: 5000-5000

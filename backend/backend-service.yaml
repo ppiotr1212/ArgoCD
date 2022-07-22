@@ -5,6 +5,7 @@ metadata:
   labels:
     app: backend-service
   name: backend-service
+  namespace: default
 spec:
   ports:
   - name: 5001-5001
